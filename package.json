@@ -1,0 +1,22 @@
+{
+  "name": "graphql-apigateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "^2.23.0",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^7.0.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
